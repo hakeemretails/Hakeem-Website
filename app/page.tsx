@@ -1,8 +1,40 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
+      {/* Header */}
+      <header className="bg-gradient-to-r from-[#0D2B4F] to-[#081A2B] py-4">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center">
+              <Image
+                src="/logo.png"
+                alt="Hakkem Fleet Logo"
+                width={50}
+                height={50}
+                className="mr-3"
+              />
+              <h1 className="font-poppins text-2xl font-bold text-white">
+                Hakkem Fleet
+              </h1>
+            </div>
+            <nav className="hidden md:flex space-x-6">
+              <Link href="#booking" className="text-white hover:text-[#00B4D8] transition-colors">
+                Book Truck
+              </Link>
+              <Link href="#tracking" className="text-white hover:text-[#00B4D8] transition-colors">
+                Track Delivery
+              </Link>
+              <Link href="/privacy" className="text-white hover:text-[#00B4D8] transition-colors">
+                Privacy
+              </Link>
+            </nav>
+          </div>
+        </div>
+      </header>
+
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#0D2B4F] to-[#081A2B] overflow-hidden">
         {/* Background Pattern */}

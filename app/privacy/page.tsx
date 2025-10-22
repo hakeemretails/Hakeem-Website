@@ -205,19 +205,6 @@ export default function PrivacyPolicy() {
             </p>
           </section>
 
-          {/* Compliance Statement */}
-          <section className="mb-8">
-            <div className="bg-[#00B4D8] bg-opacity-10 p-6 rounded-lg border-l-4 border-[#00B4D8]">
-              <h3 className="font-poppins text-lg font-semibold text-[#0D2B4F] mb-2">
-                Compliance Statement
-              </h3>
-              <p className="text-[#333333] leading-relaxed">
-                This Privacy Policy complies with Google Play Store Developer Policies and Nigerian data protection 
-                laws, including the Nigeria Data Protection Regulation (NDPR). We are committed to maintaining the 
-                highest standards of data protection and user privacy.
-              </p>
-            </div>
-          </section>
 
         </div>
       </main>

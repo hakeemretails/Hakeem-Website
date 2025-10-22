@@ -16,6 +16,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Hakkem Fleet - Fast, Reliable Truck Delivery",
   description: "Book company-owned trucks easily, get instant price estimates, and track your delivery in real time across Nigeria.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
