@@ -356,7 +356,7 @@ export default function Home() {
               <h4 className="font-semibold text-white mb-4">Contact</h4>
               <div className="space-y-2 text-gray-300">
                 <p>📞 +234 800 HAKKEM</p>
-                <p>✉️ support@hakkemfleet.com</p>
+                <p>✉️ support@hakeemretails.com</p>
                 <p>📍 Lagos, Nigeria</p>
               </div>
             </div>

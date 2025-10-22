@@ -184,7 +184,7 @@ export default function PrivacyPolicy() {
                 </div>
                 <div>
                   <strong className="text-[#0D2B4F]">Email:</strong> 
-                  <span className="text-[#333333] ml-2">privacy@hakkemfleet.com</span>
+                  <span className="text-[#333333] ml-2">privacy@hakeemretails.com</span>
                 </div>
                 <div>
                   <strong className="text-[#0D2B4F]">Phone:</strong> 
